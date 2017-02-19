@@ -18,7 +18,7 @@ public class MyConnection {
 	
 	public MyConnection() throws SQLException, Exception {
 				
-		//connection = DriverManager.getConnection(url, "root", "1234");
+		connection = DriverManager.getConnection(url, "root", "1234");
 		System.out.println("open connection !");
 	}
 
